@@ -1,6 +1,4 @@
 import  time
-import  DAQN
-import DHW
 import os
 if __name__ == '__main__':
     print('='*80)
