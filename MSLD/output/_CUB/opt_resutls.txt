@@ -1,0 +1,215 @@
+DATA:
+  NUM_INSTANCES: 3
+  NUM_WORKERS: 0
+  TEST_BATCHSIZE: 128
+  TEST_IMG_SOURCE: /home/lab/data/dataset/CARS196_2//test.txt
+  TRAIN_BATCHSIZE: 36
+  TRAIN_IMG_ORI: /home/lab/data/dataset/CARS196_2/
+  TRAIN_IMG_SOURCE: /home/lab/data/dataset/CARS196_2//train.txt
+Epoch: 5
+INPUT:
+  MODE: BGR
+LOGGER:
+  LEVEL: 20
+  STREAM: stdout
+MODEL:
+  HEAD:
+    DIM: 512
+    KMEAN: 100
+    NAME: linear_norm
+  WEIGHT: 
+P: 40
+Q: 100
+SOLVER:
+  FINETURN_MODE_PATH: 
+  IS_FINETURN: False
+  MAX_ITERS: 4000
+  STEPS: [1000, 2000, 3000]
+alpha: 1.0
+augment: True
+cuda: True
+data_name: CUB
+dataset: CUB
+iteration: 20000
+lr: 0.001
+mode: train
+neg_m: 1
+neighbor_k: 1
+outf: ./output/_CUB
+resume: 
+seed: 1000
+t: 0.1
+theta1: 1.6
+theta2: 1.8
+DATA:
+  NUM_INSTANCES: 3
+  NUM_WORKERS: 0
+  TEST_BATCHSIZE: 128
+  TEST_IMG_SOURCE: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011//test.txt
+  TRAIN_BATCHSIZE: 36
+  TRAIN_IMG_ORI: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011/
+  TRAIN_IMG_SOURCE: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011//train.txt
+Epoch: 5
+INPUT:
+  MODE: BGR
+LOGGER:
+  LEVEL: 20
+  STREAM: stdout
+MODEL:
+  HEAD:
+    DIM: 512
+    KMEAN: 100
+    NAME: linear_norm
+  WEIGHT: 
+P: 5
+Q: 100
+SOLVER:
+  FINETURN_MODE_PATH: 
+  IS_FINETURN: False
+  MAX_ITERS: 4000
+  STEPS: [1000, 2000, 3000]
+alpha: 1.0
+augment: True
+cuda: True
+data_name: CUB
+dataset: CUB
+iteration: 20000
+lr: 0.0005
+mode: train
+neg_m: 1
+neighbor_k: 1
+outf: ./output/_CUB
+resume: 
+seed: 1000
+t: 0.1
+theta1: 1.6
+theta2: 1.7
+DATA:
+  NUM_INSTANCES: 3
+  NUM_WORKERS: 0
+  TEST_BATCHSIZE: 128
+  TEST_IMG_SOURCE: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011//test.txt
+  TRAIN_BATCHSIZE: 36
+  TRAIN_IMG_ORI: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011/
+  TRAIN_IMG_SOURCE: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011//train.txt
+Epoch: 5
+INPUT:
+  MODE: BGR
+LOGGER:
+  LEVEL: 20
+  STREAM: stdout
+MODEL:
+  HEAD:
+    DIM: 512
+    KMEAN: 100
+    NAME: linear_norm
+  WEIGHT: 
+P: 5
+Q: 100
+SOLVER:
+  FINETURN_MODE_PATH: 
+  IS_FINETURN: False
+  MAX_ITERS: 4000
+  STEPS: [1000, 2000, 3000]
+alpha: 1.0
+augment: True
+cuda: True
+data_name: CUB
+dataset: CUB
+iteration: 20000
+lr: 0.0005
+mode: train
+neg_m: 1
+neighbor_k: 1
+outf: ./output/_CUB
+resume: 
+seed: 1000
+t: 0.1
+theta1: 1.6
+theta2: 1.7
+DATA:
+  NUM_INSTANCES: 3
+  NUM_WORKERS: 0
+  TEST_BATCHSIZE: 128
+  TEST_IMG_SOURCE: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011//test.txt
+  TRAIN_BATCHSIZE: 36
+  TRAIN_IMG_ORI: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011/
+  TRAIN_IMG_SOURCE: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011//train.txt
+Epoch: 5
+INPUT:
+  MODE: BGR
+LOGGER:
+  LEVEL: 20
+  STREAM: stdout
+MODEL:
+  HEAD:
+    DIM: 512
+    KMEAN: 100
+    NAME: linear_norm
+  WEIGHT: 
+P: 5
+Q: 100
+SOLVER:
+  FINETURN_MODE_PATH: 
+  IS_FINETURN: False
+  MAX_ITERS: 4000
+  STEPS: [1000, 2000, 3000]
+alpha: 1.0
+augment: True
+cuda: True
+data_name: CUB
+dataset: CUB
+iteration: 20000
+lr: 0.0005
+mode: train
+neg_m: 1
+neighbor_k: 1
+outf: ./output/_CUB
+resume: 
+seed: 1000
+t: 0.1
+theta1: 1.6
+theta2: 1.7
+DATA:
+  NUM_INSTANCES: 3
+  NUM_WORKERS: 0
+  TEST_BATCHSIZE: 128
+  TEST_IMG_SOURCE: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011//test.txt
+  TRAIN_BATCHSIZE: 36
+  TRAIN_IMG_ORI: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011/
+  TRAIN_IMG_SOURCE: /home/lab/data/dataset/CUB_200_2011_2/CUB_200_2011//train.txt
+Epoch: 5
+INPUT:
+  MODE: BGR
+LOGGER:
+  LEVEL: 20
+  STREAM: stdout
+MODEL:
+  HEAD:
+    DIM: 512
+    KMEAN: 100
+    NAME: linear_norm
+  WEIGHT: 
+P: 5
+Q: 100
+SOLVER:
+  FINETURN_MODE_PATH: 
+  IS_FINETURN: False
+  MAX_ITERS: 4000
+  STEPS: [1000, 2000, 3000]
+alpha: 1.0
+augment: True
+cuda: True
+data_name: CUB
+dataset: CUB
+iteration: 20000
+lr: 0.0005
+mode: train
+neg_m: 1
+neighbor_k: 1
+outf: ./output/_CUB
+resume: 
+seed: 1000
+t: 0.1
+theta1: 1.6
+theta2: 1.7
